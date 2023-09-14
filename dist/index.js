@@ -26,3 +26,4 @@ const dbURL = process.env.DB_URL;
 if (dbURL) {
     mongoose_1.default.connect(dbURL, { dbName: "bugEvents" });
 }
+exports.default = app;
