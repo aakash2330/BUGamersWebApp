@@ -26,4 +26,5 @@ if(dbURL){
     mongoose.connect(dbURL, { dbName: "bugEvents" })
 }
 
+export default app;
 
